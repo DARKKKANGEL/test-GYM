@@ -18,7 +18,7 @@ try {
     child.on('exit', code => { clearTimeout(timer); reject(new Error(`Server exited: ${code}`)); });
     child.stderr.on('data', bytes => process.stderr.write(bytes));
   });
-  for (const [path, type] of [['/', 'text/html'], ['/styles.css', 'text/css'], ['/app.js', 'text/javascript'], ['/questions.js', 'text/javascript']]) {
+  for (const [path, type] of [['/', 'text/html'], ['/styles.css', 'text/css'], ['/app.js', 'text/javascript'], ['/questions.js', 'text/javascript'], ['/recall.js', 'text/javascript']]) {
     const r = await fetch(origin + path);
     assert.equal(r.status, 200, path);
     assert(r.headers.get('content-type').includes(type));

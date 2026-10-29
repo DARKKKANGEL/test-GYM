@@ -66,7 +66,7 @@ u(m,'党的三大优良作风包括哪些？',['理论联系实际','密切联�
 f(m,'党的群众路线：一切为了____，一切依靠____，从____中来，到____中去。',[('第1空','群众'),('第2空','群众'),('第3空','群众'),('第4空','群众')],'后半句是“把党的正确主张变为群众的自觉行动”。','教材第13页')
 u(m,'二十大报告提出的新时代好青年要求包括？',['有理想','敢担当','能吃苦','肯奋斗','重虚名'],[0,1,2,3],'固定表述是有理想、敢担当、能吃苦、肯奋斗。','重点表第三部分第17题，已核对二十大表述')
 f(m,'红船精神的三个方面分别是首创精神、____精神和____精神。',[('第1空','奋斗'),('第2空','奉献')],'完整内涵：开天辟地、敢为人先的首创精神；坚定理想、百折不挠的奋斗精神；立党为公、忠诚为民的奉献精神。','重点表第三部分第15题')
-u(m,'党的百年奋斗“十个坚持”中，下列选项哪些属于其内容？',['党的领导、人民至上','理论创新、独立自主','中国道路、胸怀天下','开拓创新、敢于斗争','统一战线、自我革命','特权优先、闭关自守'],[0,1,2,3,4],'每个正确选项包含两项，共十项。','教材第4、114页')
+u(m,'党的百年奋斗“十个坚持”中，下列选项哪些属于其内容？',['党的领导、人民至上','理论创新、独立自主','中国道路、胸怀天下','开拓创新、敢于斗争','统一战线、自我革命','特权优先、闭关自守'],[0,1,2,3,4],'十项历史经验应完整记忆，不要漏掉统一战线和自我革命。','教材第4、114页')
 m='discipline'
 u(m,'党的六大纪律是？',['政治纪律','组织纪律','廉洁纪律','群众纪律','工作纪律','生活纪律','商业纪律'],list(range(6)),'政治、组织、廉洁、群众、工作、生活。','教材第31页')
 u(m,'对党员的五种纪律处分包括？',['警告','严重警告','撤销党内职务','留党察看','开除党籍','批评教育','取消预备党员资格'],[0,1,2,3,4],'批评教育与取消预备党员资格不属于这五种纪律处分。','教材第32、40页')
@@ -99,8 +99,26 @@ for q in extra:
  if q['id']=='current-04':q['blanks'][0]['answers']=['1200','一千二百','一千两百']
  if q['id'] in ['school-17','school-18']:q['level']='必背'
 questions+=extra
+recitations=json.loads((root/'recitation-questions.json').read_text(encoding='utf-8'))
+revisions={q['id']:q for q in recitations}
+removed={qid for q in recitations for qid in q.get('replace',[])}
+updated=[]
+migrations={}
+for q in questions:
+ if q['id'] in removed:continue
+ spec=revisions.get(q['id'])
+ if spec:
+  legacy=[q['id']]+spec.get('replace',[])
+  segments=[q['options'][i] for i in q['answers']] if spec.get('fromOptions') else spec['segments']
+  answer='；'.join(segments)+'。' if spec.get('fromOptions') else spec['answer']
+  q={k:v for k,v in q.items() if k not in ['options','answers','blanks']}
+  q.update(id=q['id']+'-recite',type='recite',prompt=spec['prompt'],answer=answer,segments=segments,mode=spec.get('mode','list' if spec.get('fromOptions') else 'exact'),alternatives=spec.get('alternatives',[]))
+  if 'explanation' in spec:q['explanation']=spec['explanation']
+  for old_id in legacy:migrations[old_id]=q['id']
+ updated.append(q)
+questions=updated
 assert len({q['id'] for q in questions})==len(questions)
-(root/'dist'/'questions.js').write_text('window.QUESTION_BANK = '+json.dumps(questions,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
+(root/'dist'/'questions.js').write_text('window.QUESTION_BANK = '+json.dumps(questions,ensure_ascii=False,indent=2)+';\nwindow.QUESTION_MIGRATIONS = '+json.dumps(migrations,ensure_ascii=False)+';\n',encoding='utf-8')
 print('Questions:',len(questions))
 from collections import Counter
 print(Counter(q['module'] for q in questions),Counter(q['type'] for q in questions))

@@ -1,89 +1,26 @@
 window.QUESTION_BANK = [
   {
-    "id": "basics-01",
+    "id": "basics-01-recite",
     "module": "basics",
-    "type": "fill",
-    "prompt": "中国共产党是中国工人阶级的____，同时是中国人民和中华民族的____。",
-    "explanation": "两个先锋队：阶级基础与群众基础相统一。",
+    "type": "recite",
+    "prompt": "请完整默写党章总纲第一自然段：党的性质及最高理想、最终目标。",
+    "explanation": "完整记忆两个先锋队、领导核心、三个代表，以及最高理想和最终目标。按党章总纲第一自然段原文默写。",
     "source": {
       "label": "教材第1页，党章总纲"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "先锋队"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "先锋队"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "basics-02",
-    "module": "basics",
-    "type": "single",
-    "prompt": "中国共产党是中国特色社会主义事业的什么？",
-    "explanation": "标准表述是“中国特色社会主义事业的领导核心”。",
-    "source": {
-      "label": "教材第1页"
-    },
-    "level": "必背",
-    "options": [
-      "领导核心",
-      "参谋机构",
-      "执行机关",
-      "协商机构"
+    "answer": "中国共产党是中国工人阶级的先锋队，同时是中国人民和中华民族的先锋队，是中国特色社会主义事业的领导核心，代表中国先进生产力的发展要求，代表中国先进文化的前进方向，代表中国最广大人民的根本利益。党的最高理想和最终目标是实现共产主义。",
+    "segments": [
+      "中国共产党是中国工人阶级的先锋队",
+      "同时是中国人民和中华民族的先锋队",
+      "是中国特色社会主义事业的领导核心",
+      "代表中国先进生产力的发展要求",
+      "代表中国先进文化的前进方向",
+      "代表中国最广大人民的根本利益",
+      "党的最高理想和最终目标是实现共产主义"
     ],
-    "answers": [
-      0
-    ]
-  },
-  {
-    "id": "basics-03",
-    "module": "basics",
-    "type": "multi",
-    "prompt": "党的性质中，“三个代表”包括哪些内容？",
-    "explanation": "三个代表分别对应生产力、文化和人民利益。",
-    "source": {
-      "label": "教材第1页"
-    },
-    "level": "必背",
-    "options": [
-      "中国先进生产力的发展要求",
-      "中国先进文化的前进方向",
-      "中国最广大人民的根本利益",
-      "少数人的特殊利益"
-    ],
-    "answers": [
-      0,
-      1,
-      2
-    ]
-  },
-  {
-    "id": "basics-04",
-    "module": "basics",
-    "type": "fill",
-    "prompt": "党的最高理想和最终目标是实现什么？",
-    "explanation": "注意区分最高理想与当前阶段的奋斗目标。",
-    "source": {
-      "label": "教材第1页"
-    },
-    "level": "必背",
-    "blanks": [
-      {
-        "label": "目标",
-        "answers": [
-          "共产主义"
-        ]
-      }
-    ]
+    "mode": "exact",
+    "alternatives": []
   },
   {
     "id": "basics-05",
@@ -105,162 +42,72 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "basics-06",
+    "id": "basics-06-recite",
     "module": "basics",
-    "type": "fill",
-    "prompt": "依次补全初心使命：为中国人民____，为中华民族____。",
+    "type": "recite",
+    "prompt": "党的初心和使命是什么？请完整默写。",
     "explanation": "完整表述：为中国人民谋幸福，为中华民族谋复兴。",
     "source": {
       "label": "教材第4页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "为中国人民",
-        "answers": [
-          "谋幸福"
-        ]
-      },
-      {
-        "label": "为中华民族",
-        "answers": [
-          "谋复兴"
-        ]
-      }
-    ]
+    "answer": "为中国人民谋幸福，为中华民族谋复兴。",
+    "segments": [
+      "为中国人民谋幸福",
+      "为中华民族谋复兴"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "basics-07",
+    "id": "basics-07-recite",
     "module": "basics",
-    "type": "multi",
-    "prompt": "下列哪些属于党的行动指南？",
+    "type": "recite",
+    "prompt": "党的行动指南有哪些？请写出完整名称。",
     "explanation": "六项行动指南按历史发展顺序记忆；“实用主义”不属于其中。",
     "source": {
       "label": "教材第1页"
     },
     "level": "必背",
-    "options": [
+    "answer": "马克思列宁主义；毛泽东思想；邓小平理论；“三个代表”重要思想；科学发展观；习近平新时代中国特色社会主义思想。",
+    "segments": [
       "马克思列宁主义",
       "毛泽东思想",
       "邓小平理论",
       "“三个代表”重要思想",
       "科学发展观",
-      "习近平新时代中国特色社会主义思想",
-      "实用主义"
+      "习近平新时代中国特色社会主义思想"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "basics-08",
+    "id": "basics-08-recite",
     "module": "basics",
-    "type": "fill",
-    "prompt": "入党誓词开头：我____加入中国共产党，拥护党的____，遵守党的____。",
-    "explanation": "原文是“志愿”，容易误写成“自愿”。",
+    "type": "recite",
+    "prompt": "请完整默写入党誓词。",
+    "explanation": "按党章第六条逐句默写。注意是“志愿”而非“自愿”，“履行党员义务”而非“履行党的义务”，不要漏掉“随时准备为党和人民牺牲一切”。",
     "source": {
       "label": "教材第18页，党章第六条"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "志愿"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "纲领"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "章程"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "basics-09",
-    "module": "basics",
-    "type": "fill",
-    "prompt": "补全誓词：履行党员____，执行党的____，严守党的____，保守党的____。",
-    "explanation": "按“义务—决定—纪律—秘密”记忆。",
-    "source": {
-      "label": "教材第18页"
-    },
-    "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "义务"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "决定"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "纪律"
-        ]
-      },
-      {
-        "label": "第4空",
-        "answers": [
-          "秘密"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "basics-10",
-    "module": "basics",
-    "type": "fill",
-    "prompt": "补全誓词：对党____，积极____，为共产主义____，随时准备为党和人民牺牲一切，____。",
-    "explanation": "完整誓词需要连贯记忆；此题只填写对应空缺。",
-    "source": {
-      "label": "教材第18页"
-    },
-    "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "忠诚"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "工作"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "奋斗终身"
-        ]
-      },
-      {
-        "label": "第4空",
-        "answers": [
-          "永不叛党"
-        ]
-      }
-    ]
+    "answer": "我志愿加入中国共产党，拥护党的纲领，遵守党的章程，履行党员义务，执行党的决定，严守党的纪律，保守党的秘密，对党忠诚，积极工作，为共产主义奋斗终身，随时准备为党和人民牺牲一切，永不叛党。",
+    "segments": [
+      "我志愿加入中国共产党",
+      "拥护党的纲领",
+      "遵守党的章程",
+      "履行党员义务",
+      "执行党的决定",
+      "严守党的纪律",
+      "保守党的秘密",
+      "对党忠诚",
+      "积极工作",
+      "为共产主义奋斗终身",
+      "随时准备为党和人民牺牲一切",
+      "永不叛党"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
     "id": "basics-11",
@@ -411,47 +258,45 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "basics-17",
+    "id": "basics-17-recite",
     "module": "basics",
-    "type": "fill",
-    "prompt": "党的根本组织原则是什么？",
+    "type": "recite",
+    "prompt": "党的根本组织原则是什么？请同时写出其含义。",
     "explanation": "民主集中制是民主基础上的集中和集中指导下的民主相结合。",
     "source": {
       "label": "教材第13页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "组织原则",
-        "answers": [
-          "民主集中制"
-        ]
-      }
+    "answer": "民主集中制是民主基础上的集中和集中指导下的民主相结合。",
+    "segments": [
+      "民主集中制",
+      "民主基础上的集中",
+      "集中指导下的民主相结合"
+    ],
+    "mode": "exact",
+    "alternatives": [
+      "民主集中制，即民主基础上的集中和集中指导下的民主相结合。"
     ]
   },
   {
-    "id": "basics-18",
+    "id": "basics-18-recite",
     "module": "basics",
-    "type": "multi",
-    "prompt": "民主集中制的“四个服从”包括哪些？",
+    "type": "recite",
+    "prompt": "请默写民主集中制的“四个服从”。",
     "explanation": "个人—组织，少数—多数，下级—上级，全党—全国代表大会和中央委员会。",
     "source": {
       "label": "教材第19页"
     },
     "level": "必背",
-    "options": [
+    "answer": "党员个人服从党的组织；少数服从多数；下级组织服从上级组织；全党各个组织和全体党员服从党的全国代表大会和中央委员会。",
+    "segments": [
       "党员个人服从党的组织",
       "少数服从多数",
       "下级组织服从上级组织",
-      "全党各个组织和全体党员服从党的全国代表大会和中央委员会",
-      "党的组织服从党员个人"
+      "全党各个组织和全体党员服从党的全国代表大会和中央委员会"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "basics-19",
@@ -493,28 +338,24 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "basics-21",
+    "id": "basics-21-recite",
     "module": "basics",
-    "type": "multi",
-    "prompt": "发展党员工作的总要求包括哪些？",
+    "type": "recite",
+    "prompt": "请默写发展党员工作的总要求。",
     "explanation": "四项共十六字；禁止突击发展。",
     "source": {
       "label": "重点表第一部分第10题；2026年发展党员工作细则第三条"
     },
     "level": "必背",
-    "options": [
+    "answer": "控制总量；优化结构；提高质量；发挥作用。",
+    "segments": [
       "控制总量",
       "优化结构",
       "提高质量",
-      "发挥作用",
-      "突击发展"
+      "发挥作用"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "basics-22",
@@ -661,130 +502,100 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "theory-01",
+    "id": "theory-01-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "“两个确立”：确立习近平同志党中央的____、全党的____地位；确立习近平新时代中国特色社会主义思想的____地位。",
+    "type": "recite",
+    "prompt": "请完整默写“两个确立”的内容。",
     "explanation": "两个确立分别对应核心地位和思想指导地位。",
     "source": {
       "label": "重点表第一部分第24题"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "核心"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "核心"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "指导"
-        ]
-      }
-    ]
+    "answer": "确立习近平同志党中央的核心、全党的核心地位，确立习近平新时代中国特色社会主义思想的指导地位。",
+    "segments": [
+      "确立习近平同志党中央的核心、全党的核心地位",
+      "确立习近平新时代中国特色社会主义思想的指导地位"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "theory-02",
+    "id": "theory-02-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "“两个维护”指哪些内容？",
+    "type": "recite",
+    "prompt": "请完整默写“两个维护”的内容。",
     "explanation": "区别：两个确立有“思想的指导地位”；两个维护有“党中央权威和集中统一领导”。",
     "source": {
       "label": "重点表第一部分第25题"
     },
     "level": "必背",
-    "options": [
+    "answer": "坚决维护习近平总书记党中央的核心、全党的核心地位；坚决维护党中央权威和集中统一领导。",
+    "segments": [
       "坚决维护习近平总书记党中央的核心、全党的核心地位",
-      "坚决维护党中央权威和集中统一领导",
-      "维护个人特殊利益",
-      "维护地方保护主义"
+      "坚决维护党中央权威和集中统一领导"
     ],
-    "answers": [
-      0,
-      1
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-03",
+    "id": "theory-03-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "“四个意识”包括？",
+    "type": "recite",
+    "prompt": "“四个意识”包括哪些？请默写完整名称。",
     "explanation": "政治、大局、核心、看齐。",
     "source": {
       "label": "教材第13页"
     },
     "level": "必背",
-    "options": [
+    "answer": "政治意识；大局意识；核心意识；看齐意识。",
+    "segments": [
       "政治意识",
       "大局意识",
       "核心意识",
-      "看齐意识",
-      "创新意识",
-      "竞争意识"
+      "看齐意识"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-04",
+    "id": "theory-04-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "“四个自信”包括？",
+    "type": "recite",
+    "prompt": "“四个自信”包括哪些？请默写完整名称。",
     "explanation": "道路、理论、制度、文化。",
     "source": {
       "label": "教材第4页"
     },
     "level": "必背",
-    "options": [
+    "answer": "道路自信；理论自信；制度自信；文化自信。",
+    "segments": [
       "道路自信",
       "理论自信",
       "制度自信",
-      "文化自信",
-      "技术自信",
-      "规模自信"
+      "文化自信"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-05",
+    "id": "theory-05-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "我国社会主要矛盾是人民日益增长的____需要和____的发展之间的矛盾。",
+    "type": "recite",
+    "prompt": "我国社会主要矛盾是什么？请完整默写。",
     "explanation": "注意“美好生活”与“不平衡不充分”两组关键词。",
     "source": {
       "label": "教材第5页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "美好生活"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "不平衡不充分"
-        ]
-      }
+    "answer": "我国社会主要矛盾是人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾。",
+    "segments": [
+      "人民日益增长的美好生活需要",
+      "不平衡不充分的发展之间的矛盾"
+    ],
+    "mode": "exact",
+    "alternatives": [
+      "人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾。",
+      "我国社会主要矛盾已经转化为人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾。"
     ]
   },
   {
@@ -808,98 +619,88 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "theory-07",
+    "id": "theory-07-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "“五位一体”总体布局包括？",
+    "type": "recite",
+    "prompt": "请默写“五位一体”总体布局的完整内容。",
     "explanation": "经济、政治、文化、社会、生态文明；不要与党的建设各方面混淆。",
     "source": {
       "label": "教材第6页"
     },
     "level": "必背",
-    "options": [
+    "answer": "经济建设；政治建设；文化建设；社会建设；生态文明建设。",
+    "segments": [
       "经济建设",
       "政治建设",
       "文化建设",
       "社会建设",
-      "生态文明建设",
-      "党的纪律建设"
+      "生态文明建设"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-08",
+    "id": "theory-08-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "当前“四个全面”战略布局包括？",
+    "type": "recite",
+    "prompt": "请默写当前“四个全面”战略布局的完整内容。",
     "explanation": "当前第一项是全面建设社会主义现代化国家。",
     "source": {
       "label": "教材第6页"
     },
     "level": "必背",
-    "options": [
+    "answer": "全面建设社会主义现代化国家；全面深化改革；全面依法治国；全面从严治党。",
+    "segments": [
       "全面建设社会主义现代化国家",
       "全面深化改革",
       "全面依法治国",
-      "全面从严治党",
-      "全面建成小康社会"
+      "全面从严治党"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-09",
+    "id": "theory-09-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "党的基本路线概括为“一个中心、两个基本点”。这个中心是什么？",
-    "explanation": "两个基本点是坚持四项基本原则、坚持改革开放。",
+    "type": "recite",
+    "prompt": "请完整默写党在社会主义初级阶段的基本路线。",
+    "explanation": "“一个中心、两个基本点”只是概括，本题要求写出基本路线完整表述。注意奋斗目标中的“富强民主文明和谐美丽”。",
     "source": {
       "label": "教材第6页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "中心",
-        "answers": [
-          "经济建设",
-          "以经济建设为中心"
-        ]
-      }
-    ]
+    "answer": "领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐美丽的社会主义现代化强国而奋斗。",
+    "segments": [
+      "领导和团结全国各族人民",
+      "以经济建设为中心",
+      "坚持四项基本原则",
+      "坚持改革开放",
+      "自力更生",
+      "艰苦创业",
+      "为把我国建设成为富强民主文明和谐美丽的社会主义现代化强国而奋斗"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "theory-10",
+    "id": "theory-10-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "四项基本原则包括哪些？",
+    "type": "recite",
+    "prompt": "请默写四项基本原则。",
     "explanation": "四项基本原则是立国之本，改革开放是强国之路。",
     "source": {
       "label": "教材第6页"
     },
     "level": "必背",
-    "options": [
+    "answer": "坚持社会主义道路；坚持人民民主专政；坚持中国共产党的领导；坚持马克思列宁主义毛泽东思想。",
+    "segments": [
       "坚持社会主义道路",
       "坚持人民民主专政",
       "坚持中国共产党的领导",
-      "坚持马克思列宁主义毛泽东思想",
-      "坚持以个人利益为中心"
+      "坚持马克思列宁主义毛泽东思想"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "theory-11",
@@ -932,173 +733,141 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "theory-12",
+    "id": "theory-12-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "新发展理念包括哪些？",
+    "type": "recite",
+    "prompt": "请默写新发展理念的完整内容。",
     "explanation": "创新、协调、绿色、开放、共享。",
     "source": {
       "label": "教材第5页"
     },
     "level": "必背",
-    "options": [
+    "answer": "创新；协调；绿色；开放；共享。",
+    "segments": [
       "创新",
       "协调",
       "绿色",
       "开放",
-      "共享",
-      "封闭"
+      "共享"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-13",
+    "id": "theory-13-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "新发展格局：以____为主体、____相互促进。",
+    "type": "recite",
+    "prompt": "请完整写出新发展格局的表述。",
     "explanation": "国内大循环为主体，国内国际双循环相互促进。",
     "source": {
       "label": "教材第5页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "国内大循环"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "国内国际双循环"
-        ]
-      }
+    "answer": "以国内大循环为主体、国内国际双循环相互促进的新发展格局。",
+    "segments": [
+      "以国内大循环为主体",
+      "国内国际双循环相互促进"
+    ],
+    "mode": "exact",
+    "alternatives": [
+      "以国内大循环为主体、国内国际双循环相互促进。",
+      "加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局。"
     ]
   },
   {
-    "id": "theory-14",
+    "id": "theory-14-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "依次补全：科技是第一____，人才是第一____，创新是第一____。",
+    "type": "recite",
+    "prompt": "请默写关于科技、人才、创新的“三个第一”的完整表述。",
     "explanation": "科技—生产力；人才—资源；创新—动力。",
     "source": {
       "label": "教材第6页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "生产力"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "资源"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "动力"
-        ]
-      }
-    ]
+    "answer": "科技是第一生产力，人才是第一资源，创新是第一动力。",
+    "segments": [
+      "科技是第一生产力",
+      "人才是第一资源",
+      "创新是第一动力"
+    ],
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-15",
+    "id": "theory-15-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "“两个结合”是把马克思主义基本原理同什么相结合？",
+    "type": "recite",
+    "prompt": "请完整写出“两个结合”的内容。",
     "explanation": "两个结合：中国具体实际、中华优秀传统文化。",
     "source": {
       "label": "教材第3页"
     },
     "level": "必背",
-    "options": [
-      "中国具体实际",
-      "中华优秀传统文化",
-      "个人主观设想",
-      "任何旧制度"
+    "answer": "把马克思主义基本原理同中国具体实际相结合、同中华优秀传统文化相结合。",
+    "segments": [
+      "把马克思主义基本原理同中国具体实际相结合",
+      "同中华优秀传统文化相结合"
     ],
-    "answers": [
-      0,
-      1
-    ]
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "theory-16",
+    "id": "theory-16-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "二十大报告“六个必须坚持”包括？",
+    "type": "recite",
+    "prompt": "请默写二十大报告提出的“六个必须坚持”。",
     "explanation": "六个必须坚持体现习近平新时代中国特色社会主义思想的立场观点方法。",
     "source": {
       "label": "重点表第三部分第11题"
     },
     "level": "必背",
-    "options": [
-      "人民至上",
-      "自信自立",
-      "守正创新",
-      "问题导向",
-      "系统观念",
-      "胸怀天下",
-      "单一指标导向"
+    "answer": "必须坚持人民至上，必须坚持自信自立，必须坚持守正创新，必须坚持问题导向，必须坚持系统观念，必须坚持胸怀天下。",
+    "segments": [
+      "必须坚持人民至上",
+      "必须坚持自信自立",
+      "必须坚持守正创新",
+      "必须坚持问题导向",
+      "必须坚持系统观念",
+      "必须坚持胸怀天下"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
+    "mode": "list",
+    "alternatives": [
+      "人民至上、自信自立、守正创新、问题导向、系统观念、胸怀天下。"
     ]
   },
   {
-    "id": "theory-17",
+    "id": "theory-17-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "中国式现代化的五个中国特色包括哪些？",
+    "type": "recite",
+    "prompt": "请默写中国式现代化的五个中国特色。",
     "explanation": "记忆：人口、共同富裕、两种文明、人与自然、和平发展。",
     "source": {
       "label": "党的二十大报告，中国式现代化相关表述"
     },
     "level": "必背",
-    "options": [
+    "answer": "人口规模巨大的现代化；全体人民共同富裕的现代化；物质文明和精神文明相协调的现代化；人与自然和谐共生的现代化；走和平发展道路的现代化。",
+    "segments": [
       "人口规模巨大的现代化",
       "全体人民共同富裕的现代化",
       "物质文明和精神文明相协调的现代化",
       "人与自然和谐共生的现代化",
-      "走和平发展道路的现代化",
-      "少数人独享成果的现代化"
+      "走和平发展道路的现代化"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-18",
+    "id": "theory-18-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "下列哪些属于中国式现代化的本质要求？",
+    "type": "recite",
+    "prompt": "请默写中国式现代化的本质要求。",
     "explanation": "本质要求共九项，与五个中国特色分开记忆。",
     "source": {
       "label": "重点表第一部分第22题"
     },
     "level": "必背",
-    "options": [
+    "answer": "坚持中国共产党领导；坚持中国特色社会主义；实现高质量发展；发展全过程人民民主；丰富人民精神世界；实现全体人民共同富裕；促进人与自然和谐共生；推动构建人类命运共同体；创造人类文明新形态。",
+    "segments": [
       "坚持中国共产党领导",
       "坚持中国特色社会主义",
       "实现高质量发展",
@@ -1107,51 +876,29 @@ window.QUESTION_BANK = [
       "实现全体人民共同富裕",
       "促进人与自然和谐共生",
       "推动构建人类命运共同体",
-      "创造人类文明新形态",
-      "照搬其他国家发展模式"
+      "创造人类文明新形态"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-19",
+    "id": "theory-19-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "“三个务必”：不忘初心、____；谦虚谨慎、____；敢于斗争、____。",
+    "type": "recite",
+    "prompt": "请完整默写“三个务必”。",
     "explanation": "三组分别是初心使命、作风、斗争精神。",
     "source": {
       "label": "重点表第一部分第19题"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "牢记使命"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "艰苦奋斗"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "善于斗争"
-        ]
-      }
-    ]
+    "answer": "务必不忘初心、牢记使命，务必谦虚谨慎、艰苦奋斗，务必敢于斗争、善于斗争。",
+    "segments": [
+      "务必不忘初心、牢记使命",
+      "务必谦虚谨慎、艰苦奋斗",
+      "务必敢于斗争、善于斗争"
+    ],
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "theory-20",
@@ -1176,230 +923,172 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "theory-21",
+    "id": "theory-21-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "伟大建党精神：坚持真理、____；践行初心、____；不怕牺牲、____；对党忠诚、____。",
+    "type": "recite",
+    "prompt": "请完整默写伟大建党精神。",
     "explanation": "四组共三十二字，注意与红船精神区分。",
     "source": {
       "label": "教材第114页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "坚守理想"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "担当使命"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "英勇斗争"
-        ]
-      },
-      {
-        "label": "第4空",
-        "answers": [
-          "不负人民"
-        ]
-      }
-    ]
+    "answer": "坚持真理、坚守理想，践行初心、担当使命，不怕牺牲、英勇斗争，对党忠诚、不负人民。",
+    "segments": [
+      "坚持真理、坚守理想",
+      "践行初心、担当使命",
+      "不怕牺牲、英勇斗争",
+      "对党忠诚、不负人民"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "theory-22",
+    "id": "theory-22-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "党的三大优良作风包括哪些？",
+    "type": "recite",
+    "prompt": "请默写党的三大优良作风。",
     "explanation": "三大作风应整组记忆。",
     "source": {
       "label": "重点表第一部分第16题"
     },
     "level": "必背",
-    "options": [
+    "answer": "理论联系实际；密切联系群众；批评和自我批评。",
+    "segments": [
       "理论联系实际",
       "密切联系群众",
-      "批评和自我批评",
-      "形式主义"
+      "批评和自我批评"
     ],
-    "answers": [
-      0,
-      1,
-      2
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-23",
+    "id": "theory-23-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "党的群众路线：一切为了____，一切依靠____，从____中来，到____中去。",
-    "explanation": "后半句是“把党的正确主张变为群众的自觉行动”。",
+    "type": "recite",
+    "prompt": "请完整默写党的群众路线。",
+    "explanation": "不能只写前四句，要写全“把党的正确主张变为群众的自觉行动”。",
     "source": {
       "label": "教材第13页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "群众"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "群众"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "群众"
-        ]
-      },
-      {
-        "label": "第4空",
-        "answers": [
-          "群众"
-        ]
-      }
-    ]
+    "answer": "一切为了群众，一切依靠群众，从群众中来，到群众中去，把党的正确主张变为群众的自觉行动。",
+    "segments": [
+      "一切为了群众",
+      "一切依靠群众",
+      "从群众中来",
+      "到群众中去",
+      "把党的正确主张变为群众的自觉行动"
+    ],
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "theory-24",
+    "id": "theory-24-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "二十大报告提出的新时代好青年要求包括？",
+    "type": "recite",
+    "prompt": "请默写二十大报告对新时代好青年的要求。",
     "explanation": "固定表述是有理想、敢担当、能吃苦、肯奋斗。",
     "source": {
       "label": "重点表第三部分第17题，已核对二十大表述"
     },
     "level": "必背",
-    "options": [
+    "answer": "有理想；敢担当；能吃苦；肯奋斗。",
+    "segments": [
       "有理想",
       "敢担当",
       "能吃苦",
-      "肯奋斗",
-      "重虚名"
+      "肯奋斗"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-25",
+    "id": "theory-25-recite",
     "module": "theory",
-    "type": "fill",
-    "prompt": "红船精神的三个方面分别是首创精神、____精神和____精神。",
+    "type": "recite",
+    "prompt": "请完整默写红船精神的三个方面。",
     "explanation": "完整内涵：开天辟地、敢为人先的首创精神；坚定理想、百折不挠的奋斗精神；立党为公、忠诚为民的奉献精神。",
     "source": {
       "label": "重点表第三部分第15题"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "奋斗"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "奉献"
-        ]
-      }
-    ]
+    "answer": "开天辟地、敢为人先的首创精神；坚定理想、百折不挠的奋斗精神；立党为公、忠诚为民的奉献精神。",
+    "segments": [
+      "开天辟地、敢为人先的首创精神",
+      "坚定理想、百折不挠的奋斗精神",
+      "立党为公、忠诚为民的奉献精神"
+    ],
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "theory-26",
+    "id": "theory-26-recite",
     "module": "theory",
-    "type": "multi",
-    "prompt": "党的百年奋斗“十个坚持”中，下列选项哪些属于其内容？",
-    "explanation": "每个正确选项包含两项，共十项。",
+    "type": "recite",
+    "prompt": "请默写党的百年奋斗历史经验“十个坚持”。",
+    "explanation": "十项历史经验应完整记忆，不要漏掉统一战线和自我革命。",
     "source": {
       "label": "教材第4、114页"
     },
     "level": "必背",
-    "options": [
-      "党的领导、人民至上",
-      "理论创新、独立自主",
-      "中国道路、胸怀天下",
-      "开拓创新、敢于斗争",
-      "统一战线、自我革命",
-      "特权优先、闭关自守"
+    "answer": "坚持党的领导、坚持人民至上、坚持理论创新、坚持独立自主、坚持中国道路、坚持胸怀天下、坚持开拓创新、坚持敢于斗争、坚持统一战线、坚持自我革命。",
+    "segments": [
+      "坚持党的领导",
+      "坚持人民至上",
+      "坚持理论创新",
+      "坚持独立自主",
+      "坚持中国道路",
+      "坚持胸怀天下",
+      "坚持开拓创新",
+      "坚持敢于斗争",
+      "坚持统一战线",
+      "坚持自我革命"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-01",
+    "id": "discipline-01-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党的六大纪律是？",
+    "type": "recite",
+    "prompt": "请默写党的六大纪律。",
     "explanation": "政治、组织、廉洁、群众、工作、生活。",
     "source": {
       "label": "教材第31页"
     },
     "level": "必背",
-    "options": [
+    "answer": "政治纪律；组织纪律；廉洁纪律；群众纪律；工作纪律；生活纪律。",
+    "segments": [
       "政治纪律",
       "组织纪律",
       "廉洁纪律",
       "群众纪律",
       "工作纪律",
-      "生活纪律",
-      "商业纪律"
+      "生活纪律"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-02",
+    "id": "discipline-02-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "对党员的五种纪律处分包括？",
+    "type": "recite",
+    "prompt": "请默写对党员的五种纪律处分。",
     "explanation": "批评教育与取消预备党员资格不属于这五种纪律处分。",
     "source": {
       "label": "教材第32、40页"
     },
     "level": "必背",
-    "options": [
+    "answer": "警告；严重警告；撤销党内职务；留党察看；开除党籍。",
+    "segments": [
       "警告",
       "严重警告",
       "撤销党内职务",
       "留党察看",
-      "开除党籍",
-      "批评教育",
-      "取消预备党员资格"
+      "开除党籍"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "discipline-03",
@@ -1572,26 +1261,24 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "discipline-11",
+    "id": "discipline-11-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "“三会一课”中的“三会”包括？",
+    "type": "recite",
+    "prompt": "请完整写出“三会一课”的内容。",
     "explanation": "一课是党课；民主生活会不属于“三会”。",
     "source": {
       "label": "教材第99页；三会一课制度"
     },
     "level": "必背",
-    "options": [
+    "answer": "支部党员大会、党支部委员会会议、党小组会、党课。",
+    "segments": [
       "支部党员大会",
       "党支部委员会会议",
       "党小组会",
-      "民主生活会"
+      "党课"
     ],
-    "answers": [
-      0,
-      1,
-      2
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "discipline-12",
@@ -1641,105 +1328,87 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "discipline-14",
+    "id": "discipline-14-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党员“四个合格”包括？",
+    "type": "recite",
+    "prompt": "请默写党员“四个合格”的完整内容。",
     "explanation": "政治、纪律、品德、作用四方面。",
     "source": {
       "label": "教材第96页"
     },
     "level": "必背",
-    "options": [
+    "answer": "政治合格；执行纪律合格；品德合格；发挥作用合格。",
+    "segments": [
       "政治合格",
       "执行纪律合格",
       "品德合格",
-      "发挥作用合格",
-      "人脉合格"
+      "发挥作用合格"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-15",
+    "id": "discipline-15-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党支部对党员直接履行哪些职责？",
-    "explanation": "党支部直接教育、管理、监督党员，并组织、宣传、凝聚、服务群众。",
+    "type": "recite",
+    "prompt": "请完整默写党支部的职责。",
+    "explanation": "不仅是对党员教育、管理、监督，还包括组织群众、宣传群众、凝聚群众、服务群众。",
     "source": {
       "label": "教材第29页"
     },
     "level": "必背",
-    "options": [
-      "教育",
-      "管理",
-      "监督",
-      "授予不受监督的特权"
+    "answer": "党支部是党的基础组织，担负直接教育党员、管理党员、监督党员和组织群众、宣传群众、凝聚群众、服务群众的职责。",
+    "segments": [
+      "党支部是党的基础组织",
+      "担负直接教育党员",
+      "管理党员",
+      "监督党员",
+      "组织群众",
+      "宣传群众",
+      "凝聚群众",
+      "服务群众"
     ],
-    "answers": [
-      0,
-      1,
-      2
-    ]
+    "mode": "exact",
+    "alternatives": []
   },
   {
-    "id": "discipline-16",
+    "id": "discipline-16-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党内政治生活的“四性”包括？",
+    "type": "recite",
+    "prompt": "请默写党内政治生活的“四性”。",
     "explanation": "政治性、时代性、原则性、战斗性。",
     "source": {
       "label": "教材第13页"
     },
     "level": "必背",
-    "options": [
+    "answer": "政治性；时代性；原则性；战斗性。",
+    "segments": [
       "政治性",
       "时代性",
       "原则性",
-      "战斗性",
-      "随意性"
+      "战斗性"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-17",
+    "id": "discipline-17-recite",
     "module": "discipline",
-    "type": "fill",
-    "prompt": "一体推进反腐败的“三不”是：____腐、____腐、____腐。",
+    "type": "recite",
+    "prompt": "一体推进反腐败的“三不”是什么？请完整写出。",
     "explanation": "不敢腐、不能腐、不想腐分别体现震慑、制度约束和思想自觉。",
     "source": {
       "label": "教材第14页"
     },
     "level": "必背",
-    "blanks": [
-      {
-        "label": "第1空",
-        "answers": [
-          "不敢"
-        ]
-      },
-      {
-        "label": "第2空",
-        "answers": [
-          "不能"
-        ]
-      },
-      {
-        "label": "第3空",
-        "answers": [
-          "不想"
-        ]
-      }
-    ]
+    "answer": "不敢腐、不能腐、不想腐。",
+    "segments": [
+      "不敢腐",
+      "不能腐",
+      "不想腐"
+    ],
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "discipline-18",
@@ -1768,30 +1437,25 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "discipline-19",
+    "id": "discipline-19-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党的建设中，应全面推进的五个方面包括哪些？",
+    "type": "recite",
+    "prompt": "请默写党的建设应全面推进的五个方面。",
     "explanation": "以政治建设为统领，把制度建设贯穿其中，深入推进反腐败斗争。",
     "source": {
       "label": "重点表第二部分第10题"
     },
     "level": "必背",
-    "options": [
+    "answer": "政治建设；思想建设；组织建设；作风建设；纪律建设。",
+    "segments": [
       "政治建设",
       "思想建设",
       "组织建设",
       "作风建设",
-      "纪律建设",
-      "商业建设"
+      "纪律建设"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "discipline-20",
@@ -1814,76 +1478,64 @@ window.QUESTION_BANK = [
     ]
   },
   {
-    "id": "discipline-21",
+    "id": "discipline-21-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党面临的“四大考验”包括？",
+    "type": "recite",
+    "prompt": "请默写党面临的“四大考验”。",
     "explanation": "与“四种危险”分开记忆。",
     "source": {
       "label": "教材第14页"
     },
     "level": "必背",
-    "options": [
+    "answer": "执政考验；改革开放考验；市场经济考验；外部环境考验。",
+    "segments": [
       "执政考验",
       "改革开放考验",
       "市场经济考验",
-      "外部环境考验",
-      "特权考验"
+      "外部环境考验"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-22",
+    "id": "discipline-22-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党面临的“四种危险”包括？",
+    "type": "recite",
+    "prompt": "请默写党面临的“四种危险”。",
     "explanation": "精神、能力、群众、腐败四个方面。",
     "source": {
       "label": "教材第14页"
     },
     "level": "必背",
-    "options": [
+    "answer": "精神懈怠危险；能力不足危险；脱离群众危险；消极腐败危险。",
+    "segments": [
       "精神懈怠危险",
       "能力不足危险",
       "脱离群众危险",
-      "消极腐败危险",
-      "改革创新危险"
+      "消极腐败危险"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
-    "id": "discipline-23",
+    "id": "discipline-23-recite",
     "module": "discipline",
-    "type": "multi",
-    "prompt": "党史学习教育的四项主要任务是？",
+    "type": "recite",
+    "prompt": "请默写党史学习教育的四项主要任务。",
     "explanation": "明理、增信、崇德、力行。",
     "source": {
       "label": "教材第111—112页"
     },
     "level": "必背",
-    "options": [
+    "answer": "学史明理；学史增信；学史崇德；学史力行。",
+    "segments": [
       "学史明理",
       "学史增信",
       "学史崇德",
-      "学史力行",
-      "学史逐利"
+      "学史力行"
     ],
-    "answers": [
-      0,
-      1,
-      2,
-      3
-    ]
+    "mode": "list",
+    "alternatives": []
   },
   {
     "id": "discipline-24",
@@ -2824,3 +2476,4 @@ window.QUESTION_BANK = [
     "level": "必背"
   }
 ];
+window.QUESTION_MIGRATIONS = {"basics-01": "basics-01-recite", "basics-02": "basics-01-recite", "basics-03": "basics-01-recite", "basics-04": "basics-01-recite", "basics-06": "basics-06-recite", "basics-07": "basics-07-recite", "basics-08": "basics-08-recite", "basics-09": "basics-08-recite", "basics-10": "basics-08-recite", "basics-17": "basics-17-recite", "basics-18": "basics-18-recite", "basics-21": "basics-21-recite", "theory-01": "theory-01-recite", "theory-02": "theory-02-recite", "theory-03": "theory-03-recite", "theory-04": "theory-04-recite", "theory-05": "theory-05-recite", "theory-07": "theory-07-recite", "theory-08": "theory-08-recite", "theory-09": "theory-09-recite", "theory-10": "theory-10-recite", "theory-12": "theory-12-recite", "theory-13": "theory-13-recite", "theory-14": "theory-14-recite", "theory-15": "theory-15-recite", "theory-16": "theory-16-recite", "theory-17": "theory-17-recite", "theory-18": "theory-18-recite", "theory-19": "theory-19-recite", "theory-21": "theory-21-recite", "theory-22": "theory-22-recite", "theory-23": "theory-23-recite", "theory-24": "theory-24-recite", "theory-25": "theory-25-recite", "theory-26": "theory-26-recite", "discipline-01": "discipline-01-recite", "discipline-02": "discipline-02-recite", "discipline-11": "discipline-11-recite", "discipline-14": "discipline-14-recite", "discipline-15": "discipline-15-recite", "discipline-16": "discipline-16-recite", "discipline-17": "discipline-17-recite", "discipline-19": "discipline-19-recite", "discipline-21": "discipline-21-recite", "discipline-22": "discipline-22-recite", "discipline-23": "discipline-23-recite"};

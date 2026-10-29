@@ -12,6 +12,7 @@ const files = new Map([
   ['/styles.css', ['styles.css', 'text/css']],
   ['/questions.js', ['questions.js', 'text/javascript']],
   ['/app.js', ['app.js', 'text/javascript']],
+  ['/recall.js', ['recall.js', 'text/javascript']],
 ]);
 const server = http.createServer(async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
