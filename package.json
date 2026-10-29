@@ -1,0 +1,11 @@
+{
+  "name": "qiushi-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "发展对象闭卷练习工作台：选择、填空与错题复习",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node check.cjs && node check-server.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

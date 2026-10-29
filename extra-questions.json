@@ -1,0 +1,254 @@
+[
+  {
+    "id": "current-01", "module": "current", "type": "fill",
+    "prompt": "“十五五”规划覆盖哪五年？请分别填写起始年份和结束年份（不写“年”）。",
+    "blanks": [{"label": "起始年份", "answers": ["2026", "二〇二六", "二零二六"]}, {"label": "结束年份", "answers": ["2030", "二〇三〇", "二零三零"]}],
+    "explanation": "“十五五”时期是2026—2030年；2035年是基本实现社会主义现代化的目标年份，不能混为一谈。",
+    "source": {"label": "2026年政府工作报告与教材第130—134页", "href": "https://www.news.cn/politics/20260313/b7598d80b1ad4160b2a50a77901293ce/c.html"}, "level": "必背"
+  },
+  {
+    "id": "current-02", "module": "current", "type": "single",
+    "prompt": "2026年政府工作报告提出的当年经济增长预期目标是？",
+    "options": ["5%左右", "4.5%—5%，在实际工作中努力争取更好结果", "6%以上", "4%左右"], "answers": [1],
+    "explanation": "2026年目标为4.5%—5%，并强调在实际工作中努力争取更好结果。记清年份，不能套用其他年份的目标。",
+    "source": {"label": "教材第134页"}, "level": "必背"
+  },
+  {
+    "id": "current-03", "module": "current", "type": "fill",
+    "prompt": "2026年城镇调查失业率预期目标为百分之几左右？只填写数值。",
+    "blanks": [{"label": "失业率（%）", "answers": ["5.5", "5.5%", "百分之五点五", "五点五"]}],
+    "explanation": "2026年城镇调查失业率预期目标为5.5%左右。注意它与经济增长预期目标的区间不同。",
+    "source": {"label": "教材第134页"}, "level": "必背"
+  },
+  {
+    "id": "current-04", "module": "current", "type": "fill",
+    "prompt": "2026年城镇新增就业预期目标为多少万人以上？只填写数值，单位为“万人”。",
+    "blanks": [{"label": "新增就业（万人以上）", "answers": ["1200", "一千二百", "一千两百", "一千二", "一千两"]}],
+    "explanation": "2026年城镇新增就业预期目标为1200万人以上，限定词是“以上”。",
+    "source": {"label": "教材第134页"}, "level": "必背"
+  },
+  {
+    "id": "current-05", "module": "current", "type": "single",
+    "prompt": "2026年居民消费价格涨幅预期目标为？",
+    "options": ["1%左右", "2%左右", "3%左右", "5%左右"], "answers": [1],
+    "explanation": "2026年居民消费价格涨幅预期目标为2%左右。不要与失业率5.5%左右混淆。",
+    "source": {"label": "教材第134页"}, "level": "必背"
+  },
+  {
+    "id": "current-06", "module": "current", "type": "single",
+    "prompt": "2026年政府工作报告对财政政策的表述是继续实施哪一种政策？",
+    "options": ["紧缩的财政政策", "稳健的财政政策", "更加积极的财政政策", "中性的财政政策"], "answers": [2],
+    "explanation": "财政政策对应“更加积极”，货币政策对应“适度宽松”。记住两组搭配。",
+    "source": {"label": "教材第135—136页"}, "level": "必背"
+  },
+  {
+    "id": "current-07", "module": "current", "type": "fill",
+    "prompt": "2026年政府工作报告提出继续实施怎样的货币政策？填写四字关键词。",
+    "blanks": [{"label": "四字关键词", "answers": ["适度宽松", "适度宽松的"]}],
+    "explanation": "标准表述是“继续实施适度宽松的货币政策”。",
+    "source": {"label": "教材第136页"}, "level": "必背"
+  },
+  {
+    "id": "current-08", "module": "current", "type": "multi",
+    "prompt": "2026年政府工作报告提出着力实现的“四稳”包括哪些？",
+    "options": ["稳就业", "稳企业", "稳市场", "稳预期", "稳出口", "稳房价"], "answers": [0, 1, 2, 3],
+    "explanation": "教材中的完整搭配是稳就业、稳企业、稳市场、稳预期。按题干所指定的2026年报告表述作答。",
+    "source": {"label": "教材第134页"}, "level": "必背"
+  },
+  {
+    "id": "current-09", "module": "current", "type": "fill",
+    "prompt": "依次补全2026年树立和践行正确政绩观学习教育的四项总要求。",
+    "blanks": [{"label": "第1项", "answers": ["立党为公"]}, {"label": "第2项", "answers": ["为民造福"]}, {"label": "第3项", "answers": ["科学决策"]}, {"label": "第4项", "answers": ["真抓实干"]}],
+    "explanation": "总要求是立党为公、为民造福、科学决策、真抓实干。抓手是“一体推进学查改”，两者要分清。",
+    "source": {"label": "教材第190页"}, "level": "必背"
+  },
+  {
+    "id": "current-10", "module": "current", "type": "single",
+    "prompt": "2026年树立和践行正确政绩观学习教育以什么为抓手？",
+    "options": ["一体推进学查改", "只开展集中理论考试", "只进行评比表彰", "只撰写学习心得"], "answers": [0],
+    "explanation": "通知明确以“一体推进学查改”为抓手。学习教育于2026年春节假期后启动，7月底基本结束。",
+    "source": {"label": "教材第190—191页"}, "level": "必背"
+  },
+  {
+    "id": "current-11", "module": "current", "type": "single",
+    "prompt": "“十五五”规划建议对“十五五”时期在基本实现社会主义现代化进程中所处地位的判断是？",
+    "options": ["全面建成小康社会的起步时期", "夯实基础、全面发力的关键时期", "已经全面建成社会主义现代化强国的时期", "社会主义初级阶段已经结束的时期"], "answers": [1],
+    "explanation": "“十五五”时期是基本实现社会主义现代化夯实基础、全面发力的关键时期。2035年目标仍是“基本实现”。",
+    "source": {"label": "教材第155—156页"}, "level": "必背"
+  },
+  {
+    "id": "current-12", "module": "current", "type": "multi",
+    "prompt": "下列哪些属于“十五五”时期经济社会发展必须遵循的六项原则？",
+    "options": ["坚持党的全面领导", "坚持人民至上", "坚持高质量发展", "坚持全面深化改革", "坚持有效市场和有为政府相结合", "坚持统筹发展和安全", "坚持只追求经济增长速度", "坚持以封闭发展替代对外开放"], "answers": [0, 1, 2, 3, 4, 5],
+    "explanation": "六项原则分别对应领导、人民、质量、改革、市场与政府、发展与安全。它们与二十大报告的“六个必须坚持”不是同一组内容。",
+    "source": {"label": "教材第158—159页"}, "level": "必背"
+  },
+  {
+    "id": "current-13", "module": "current", "type": "single",
+    "prompt": "《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》由哪次会议于2025年10月23日通过？",
+    "options": ["党的二十届二中全会", "党的二十届三中全会", "党的二十届四中全会", "党的二十届五中全会"], "answers": [2],
+    "explanation": "“十五五”规划建议由党的二十届四中全会通过。不要把四中全会的规划建议与2026年五中全会的全面从严治党决定混淆。",
+    "source": {"label": "教材第155页"}, "level": "必背"
+  },
+  {
+    "id": "current-14", "module": "current", "type": "fill",
+    "prompt": "“十五五”时期经济社会发展指导思想提出，以推动什么发展为主题？填写五字关键词。",
+    "blanks": [{"label": "五字关键词", "answers": ["高质量发展"]}],
+    "explanation": "以推动高质量发展为主题，以改革创新为根本动力，以满足人民日益增长的美好生活需要为根本目的。",
+    "source": {"label": "教材第157—158页"}, "level": "必背"
+  },
+  {
+    "id": "current-15", "module": "current", "type": "fill",
+    "prompt": "2026年单位国内生产总值二氧化碳排放预期降低百分之几左右？只填写数值。",
+    "blanks": [{"label": "降低幅度（%）", "answers": ["3.8", "3.8%", "百分之三点八", "三点八"]}],
+    "explanation": "2026年年度目标为降低3.8%左右。不要与“十五五”时期累计降低17%的目标混淆。",
+    "source": {"label": "教材第131、134页"}, "level": "补充"
+  },
+  {
+    "id": "current-16", "module": "current", "type": "single",
+    "prompt": "2026年政府工作报告提出的当年粮食产量预期目标是？",
+    "options": ["1万亿斤左右", "1.2万亿斤左右", "1.4万亿斤左右", "2万亿斤左右"], "answers": [2],
+    "explanation": "2026年粮食产量预期目标为1.4万亿斤左右。题目问的是当年产量目标。",
+    "source": {"label": "教材第134页"}, "level": "补充"
+  },
+  {
+    "id": "current-17", "module": "current", "type": "single",
+    "prompt": "【截至2026年10月29日的近期补充】党的二十届五中全会于何时举行？",
+    "options": ["2025年10月20日至23日", "2026年3月5日至12日", "2026年10月26日至29日", "2027年下半年"], "answers": [2],
+    "explanation": "党的二十届五中全会于2026年10月26日至29日在北京举行。这是3月版教材之后的补充，是否纳入本次考试范围尚未确定。",
+    "source": {"label": "2026年10月29日二十届五中全会公报", "href": "https://www.12371.cn/2026/10/29/ARTI1793267034443539.shtml"}, "level": "补充"
+  },
+  {
+    "id": "current-18", "module": "current", "type": "single",
+    "prompt": "【截至2026年10月29日的近期补充】党的二十届五中全会审议通过的文件是？",
+    "options": ["《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》", "《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》", "《关于建国以来党的若干历史问题的决议》", "《中共中央关于全面深化改革若干重大问题的决定》"], "answers": [1],
+    "explanation": "五中全会审议通过关于持之以恒推进全面从严治党若干重大问题的决定；“十五五”规划建议对应二十届四中全会。此题是教材之后的近期补充。",
+    "source": {"label": "2026年10月29日二十届五中全会公报", "href": "https://www.12371.cn/2026/10/29/ARTI1793267034443539.shtml"}, "level": "补充"
+  },
+  {
+    "id": "school-01", "module": "school", "type": "fill",
+    "prompt": "浙江大学前身求是书院创立于哪一年？只填写年份。",
+    "blanks": [{"label": "创立年份", "answers": ["1897", "一八九七", "一八九七年", "1897年"]}],
+    "explanation": "浙江大学前身求是书院创立于1897年。1928年对应定名国立浙江大学，1998年对应四校合并。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-02", "module": "school", "type": "single",
+    "prompt": "浙江大学的前身是下列哪所书院？",
+    "options": ["岳麓书院", "求是书院", "白鹿洞书院", "诂经精舍"], "answers": [1],
+    "explanation": "学校历史源头是1897年创立的求是书院。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-03", "module": "school", "type": "single",
+    "prompt": "1897年创办求是书院的杭州知府是？",
+    "options": ["竺可桢", "路甬祥", "林启", "马一浮"], "answers": [2],
+    "explanation": "求是书院由杭州知府林启创办。竺可桢与西迁办学、求是校训相关；马一浮是校歌词作者。",
+    "source": {"label": "浙江大学校史与精神文化介绍", "href": "https://www.zju.edu.cn/25216/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-04", "module": "school", "type": "single",
+    "prompt": "学校定名“国立浙江大学”是哪一年？",
+    "options": ["1897年", "1928年", "1937年", "1998年"], "answers": [1],
+    "explanation": "1897年创立求是书院，1928年定名国立浙江大学。题目问的是定名年份。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-05", "module": "school", "type": "fill",
+    "prompt": "浙江大学现行校训是什么？填写四个字。",
+    "blanks": [{"label": "四字校训", "answers": ["求是创新"]}],
+    "explanation": "现行校训是“求是创新”。“勤学、修德、明辨、笃实”是共同价值观，不能替代校训。",
+    "source": {"label": "浙江大学章程第八条", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-06", "module": "school", "type": "fill",
+    "prompt": "浙江大学校庆日是每年的几月几日？请分别填写月和日。",
+    "blanks": [{"label": "月", "answers": ["5", "五", "5月", "五月"]}, {"label": "日", "answers": ["21", "二十一", "21日", "二十一日"]}],
+    "explanation": "学校校庆日为每年5月21日。9月15日是1998年四校合并的日期。",
+    "source": {"label": "浙江大学章程第七十四条", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-07", "module": "school", "type": "fill",
+    "prompt": "四校合并组建新的浙江大学是哪一天？请依次填写年、月、日。",
+    "blanks": [{"label": "年", "answers": ["1998", "一九九八", "1998年", "一九九八年"]}, {"label": "月", "answers": ["9", "九", "9月", "九月"]}, {"label": "日", "answers": ["15", "十五", "15日", "十五日"]}],
+    "explanation": "1998年9月15日，四校合并组建新的浙江大学。与1897年创校、5月21日校庆分开记忆。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-08", "module": "school", "type": "multi",
+    "prompt": "1998年合并组建新的浙江大学的四所学校包括哪些？",
+    "options": ["浙江大学", "杭州大学", "浙江农业大学", "浙江医科大学", "浙江工业大学", "浙江师范大学"], "answers": [0, 1, 2, 3],
+    "explanation": "四校是浙江大学、杭州大学、浙江农业大学、浙江医科大学。不要因名称相近选入浙江工业大学或浙江师范大学。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-09", "module": "school", "type": "single",
+    "prompt": "抗日战争爆发后，浙江大学于哪一年开始举校西迁？",
+    "options": ["1928年", "1937年", "1946年", "1952年"], "answers": [1],
+    "explanation": "浙江大学1937年开始举校西迁，1946年秋回迁杭州。注意西迁与回迁的年份。",
+    "source": {"label": "浙江大学章程序言", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-10", "module": "school", "type": "fill",
+    "prompt": "抗战时期率领浙江大学师生西迁、坚持办学的校长是谁？",
+    "blanks": [{"label": "校长姓名", "answers": ["竺可桢", "竺可楨"]}],
+    "explanation": "竺可桢校长率领浙大师生西迁，在艰苦环境中坚持办学。请注意“竺”“桢”的写法。",
+    "source": {"label": "浙江大学历史沿革", "href": "https://www.zju.edu.cn/519/listm.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-11", "module": "school", "type": "multi",
+    "prompt": "根据浙江大学章程序言，西迁期间学校曾在哪些贵州地区办学？",
+    "options": ["遵义", "湄潭", "杭州", "上海"], "answers": [0, 1],
+    "explanation": "章程序言记载，学校西迁后在贵州遵义、湄潭等地办学。题目限定的是贵州地区。",
+    "source": {"label": "浙江大学章程序言", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-12", "module": "school", "type": "fill",
+    "prompt": "浙江大学结束西迁办学历程，于哪一年秋回迁杭州？只填写年份。",
+    "blanks": [{"label": "回迁年份", "answers": ["1946", "一九四六", "1946年", "一九四六年"]}],
+    "explanation": "学校于1946年秋回迁杭州。1937年是西迁开始年份。",
+    "source": {"label": "浙江大学章程序言", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-13", "module": "school", "type": "fill",
+    "prompt": "《浙江大学校歌》的词作者、曲作者分别是谁？请依次填写。",
+    "blanks": [{"label": "词作者", "answers": ["马一浮", "馬一浮"]}, {"label": "曲作者", "answers": ["应尚能", "應尚能"]}],
+    "explanation": "马一浮作词，应尚能作曲。按“词—曲”顺序记忆。",
+    "source": {"label": "浙江大学章程第七十三条", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "必背"
+  },
+  {
+    "id": "school-14", "module": "school", "type": "fill",
+    "prompt": "截至2026年10月29日，学校官网列出的浙江大学党委书记、校长分别是谁？请依次填写。",
+    "blanks": [{"label": "党委书记", "answers": ["任少波"]}, {"label": "校长", "answers": ["马琰铭", "馬琰銘"]}],
+    "explanation": "官网现任领导页面列出：党委书记任少波，校长马琰铭。旧版页面可能保留往届领导信息，复习时以现任领导页面为准。",
+    "source": {"label": "浙江大学官网现任领导（核对日期2026年10月29日）", "href": "https://www.zju.edu.cn/xrld/list.htm"}, "level": "必背"
+  },
+  {
+    "id": "school-15", "module": "school", "type": "single",
+    "prompt": "1938年，竺可桢校长主持的校务会议确定的校训是？",
+    "options": ["求是", "求是创新", "勤学修德", "海纳江河"], "answers": [0],
+    "explanation": "1938年确定“求是”为校训；1988年决定以“求是创新”为新时期校训。题干年份决定作答。",
+    "source": {"label": "浙江大学校史与精神文化介绍", "href": "https://www.zju.edu.cn/25216/listm.htm"}, "level": "补充"
+  },
+  {
+    "id": "school-16", "module": "school", "type": "single",
+    "prompt": "学校决定以“求是创新”为新时期校训是哪一年？",
+    "options": ["1897年", "1938年", "1988年", "1998年"], "answers": [2],
+    "explanation": "1988年5月5日，路甬祥校长主持的校务会议决定以“求是创新”为新时期校训。",
+    "source": {"label": "浙江大学校史与精神文化介绍", "href": "https://www.zju.edu.cn/25216/listm.htm"}, "level": "补充"
+  },
+  {
+    "id": "school-17", "module": "school", "type": "multi",
+    "prompt": "下列哪些属于浙大人的共同价值观？",
+    "options": ["勤学", "修德", "明辨", "笃实", "博学", "慎思"], "answers": [0, 1, 2, 3],
+    "explanation": "共同价值观为勤学、修德、明辨、笃实。校训为求是创新，二者要区分。",
+    "source": {"label": "浙江大学章程第八条", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "补充"
+  },
+  {
+    "id": "school-18", "module": "school", "type": "fill",
+    "prompt": "依次补全浙大精神的四个四字表述。",
+    "blanks": [{"label": "第1项", "answers": ["海纳江河"]}, {"label": "第2项", "answers": ["启真厚德"]}, {"label": "第3项", "answers": ["开物前民"]}, {"label": "第4项", "answers": ["树我邦国"]}],
+    "explanation": "浙大精神为海纳江河、启真厚德、开物前民、树我邦国。",
+    "source": {"label": "浙江大学章程第八条", "href": "https://www.zju.edu.cn/_upload/article/files/61/d0/004235af4bc4a6871686da300c7b/72e78896-c70d-4c9c-a622-dd5d73059244.pdf"}, "level": "补充"
+  }
+]
